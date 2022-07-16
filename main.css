@@ -1,0 +1,215 @@
+body{
+    background: #F4FBFC
+}
+
+
+
+.main{
+    width: 1264px;
+    height: 2021px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(217, 246, 251, 0.5833) 25%, #CAF2FA 100%);
+}
+
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex2{
+    display: flex;
+    top: 205px;
+    position: relative;
+    justify-content: space-evenly
+}
+
+
+
+
+
+/* Стилизация текстов */
+.text{
+    width: 348px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #223867;
+}
+.text._2{
+    margin: auto;
+    margin-top: 10px;
+    width: 517px;
+    height: 42px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+.text._3{
+    margin-top: 43px;
+    width: 517px;
+    height: 42px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #028CA6
+}
+.text.textblock{
+    width: 548px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 15px;
+    margin-left:25px;
+    text-align: left;
+}
+.text.textblock.__2{
+    width: 519px;
+    height: 105px;
+}
+.text.textblock.__3{
+    width: 534px;
+    height: 100px;
+}
+.text.textblock.__4{
+    width: 538px;
+    height: 177px;
+}
+.text.textblock.__5{
+    width: 557px;
+    height: 140px;
+}
+.text.hr{
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    width: 1219px;
+    height: 42px;
+    margin-top:89px ;
+}
+
+
+
+
+
+/* Стилизация блоков */
+.block1{
+    height: 420px;
+    width: 578px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.style_block1{
+    background: rgba(255, 255, 255, 0.7);
+    border: 2px solid #068CA6;
+    box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+    border-radius: 10px;
+    width: 578px;
+    height: 88px;
+}
+.style_block1._2{
+    height: 149px;
+}
+.style_block1._3{
+    height: 121px;
+}
+.style_block1._4{
+    height: 222px;
+}
+.style_block1._5{
+    height: 171px;
+}
+.icon{
+    width: 119px;
+    height: 119px;
+}
+.icon.scolioz{
+    position: relative;
+    left: 566px;
+    top: 195px
+}
+.imgcarusel{
+    width: 316px;
+    height: 316px;
+    margin: 0 auto;
+    position: relative;
+    top: 135px;
+}
+
+
+
+
+/* Картинки */
+ .img{
+    margin-top:23px ;
+} 
+.carusel{
+    position: relative;
+    top: -84px;
+}
+.plus{
+    z-index: 10;
+    position: relative;
+    bottom: 65px;
+    right: 85px;
+}
+.eclipse{
+    z-index: 9;
+    position: relative;
+    bottom: 27px;
+    right: 24px;
+} 
+.womancarusel{
+    border-radius: 148px;
+    opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+/* Анимации текста */
+
+.anitext{
+
+    animation: fadeIn ease-in-out 1s;
+    display: none;
+    right: 100px;
+    bottom: 22px;
+    font-family: 'Roboto';
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #223867;
+    width: 242px;
+    height: 92px;
+    position: absolute
+}
+.anitext.ani2{
+    left: 194px;
+    bottom: 0px;
+}
+.anitext.ani1{
+    left: 25px;
+    bottom: 81px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    50%{opacity:0.5;}
+    100% {opacity:1;}
+  }
+  
+
+
+  

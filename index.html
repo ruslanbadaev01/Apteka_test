@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Apteka</title>
+        <link rel="stylesheet" href='/main.css'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="main">
+
+            <!-- Пишем заголовок -->
+            <div>
+                <p class="text">А вдруг CMA?</p>
+                <p class="text _2">Выберите,кто ваш пациент:</p>
+            </div>
+
+            <!-- Далее редактируем текст с картинками -->
+            <div class="flex">
+                <p class="text _2 _3">Взрослый</p>
+                <p class="text _2 _3">Ребенок</p>
+            </div>
+            <div class="flex">
+                <div><img src="/img/image 48.png" alt="" class="img"></div>
+                <div><img src="/img/image 49.png" alt="" class="img"></div>
+            </div>
+
+            <!-- Теперь сделаем тексты в блоках под картинками -->
+            <div class="flex">
+                <div class="block1">
+                    <div class="style_block1">
+                        <p class="text textblock">
+                            Менее тяжелые формы СМА могут возникать и диагностироваться в зрелом возрасте.
+                        </p>
+                    </div>
+
+                    <div class="style_block1 _2">
+                        <p class="text textblock __2">
+                            По сравнению с СМА у детей, СМА у взрослых может иметь более легкие симптомы, но без патогенетической терапии пациенты со СМА 2-3 типа неуклонно теряют двигательные навыки.
+                        </p>
+                    </div>
+
+                    <div class="style_block1 _3">
+                        <p class="text textblock __3">
+                            По сравнению с СМА в детстве, течение СМА у взрослых может быть более коварным и трудным для распознавания.
+                        </p>
+                    </div>
+                </div>
+                <div class="block1 block2">
+                    <div class="style_block1 _4">
+                        <p class="text textblock __4">
+                            Ребенок, плохо удерживающий голову, когда ему придают сидячее положение, с вялыми
+                            движениями нижних конечностей или с трудом тянущийся к предметам, но при этом с
+                            осмысленным и ярким взглядом, улыбающийся и социально активный, вызывает настороженность
+                            в отношении наличия СМА.
+                        </p>
+                    </div>
+
+                    <div class="style_block1 _5">
+                        <p class="text textblock __5">
+                            Младенцам со СМА необходимо экстренное направление к специалисту, ранняя диагностика и обеспечение
+                            терапией, спасающей жизнь, поскольку эти мотонейроны очень быстро подвергаются
+                            дегенерации при прогрессировании заболевания
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <p class="text hr">
+                    Сообщает ли один из ваших пациентов о следующих симптомах? <a style="color:#028CA6;" href="">(нажмите на любую иконку и узнайте больше)</a>
+                </p>
+            </div>
+
+            <!-- Реализуем карусель -->
+            <div class="icon scolioz">
+                <img src="/img/Ellipse 68.png" alt="" class="eclipse" />
+                <img src="/img/Union.png" alt="" class="plus"  onmouseover="viewDiv3()" onmouseout="unviewDiv3()"/>
+                <img src="/img/img8.png" alt="" class="carusel"/>
+                <div class="anitext ani1" id="t3">
+                    <p>
+                        Сколиоз
+                    </p>
+                </div>
+            </div>
+            
+            <div class="flex2">
+                <div class="icon">
+                    <img src="/img/Ellipse 68.png" alt="" class="eclipse" />
+                    <img src="/img/Union.png" alt="" class="plus"  onmouseover="viewDiv2()" onmouseout="unviewDiv2()"/>
+                    <img src="/img/img7.png" alt="" class="carusel"/>
+                    <div class="anitext ani2" id="t2">
+                        <p>
+                            Утомляемость
+                        </p>
+                    </div>
+                </div>
+
+                <div class="icon">
+                    <img src="/img/Ellipse 68.png" alt="" class="eclipse"/>
+                    <img src="/img/Union.png" alt="" class="plus"  onmouseover="viewDiv()" onmouseout="unviewDiv()"/>
+                    <img src="/img/img1.png" alt="" class="carusel" style="top:-96px"/>
+                    <div class="anitext " id="t1">
+                        <p>
+                            Ограниченная способность поднимать руки 
+                            и переносить предметы
+                        </p>
+                    </div>
+                </div> 
+            </div>
+
+            <div>
+                
+            </div>
+
+            <div class="imgcarusel">
+                <img src="/img/women.png" alt="" class="womancarusel">
+            </div>
+
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
